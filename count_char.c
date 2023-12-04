@@ -19,10 +19,11 @@ int ft_count(const char *str)
 }
 
 int main (int argc, char *argv[])
-{   if (argc != 2)
+{   
+    if (argc != 2)
     {
         printf("Incorrect input, please type something in\n");
-        return 1;
+        return (1); // standard error - both finish
     }
     else
     {

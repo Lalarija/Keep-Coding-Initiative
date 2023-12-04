@@ -6,6 +6,7 @@
 
 int ft_count(const char *str)
 {
+
     int i;
     int new_word;
     int state;
@@ -27,7 +28,8 @@ int ft_count(const char *str)
     return(new_word);
 }
 
-//int ft_digit_check(const char *str) this function will check if only one integer was given as input 
+//int ft_digit_check(const char *str) this function will check if only one integer was given as input
+
 
 int main (int argc, char *argv[])
 {
